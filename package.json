@@ -1,0 +1,22 @@
+{
+  "name": "@zvs001/math-utils",
+  "version": "0.0.1",
+  "description": "",
+  "main": "./index",
+  "scripts": {
+    "prepack": "npx tsc --noEmit false",
+    "postpublish": "npm run clean",
+    "clean": "npx module-kit-clean"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "*"
+  },
+  "devDependencies": {
+    "@zvs001/module-kit": "0.0.1",
+    "chai": "^4.2.0",
+    "mocha": "^8.0.1"
+  }
+}
